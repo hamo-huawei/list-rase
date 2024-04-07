@@ -1,0 +1,131 @@
+@media (max-width: 767px) {
+    .nav-sr {
+        border-bottom: 1px solid #d5d5d5;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .nav-sr .part1 .sel {
+        border-right: unset;
+    }
+
+    .nav-sr .part2 span,
+    .nav-sr .part2 a {
+        border-left: unset;
+    }
+
+    .landing .container .title {
+        font-size: 30px;
+    }
+
+    .landing .container .p-title {
+        font-size: 15px;
+    }
+
+    .landing .container .land-sr .part1 .box {
+        width: 100%;
+    }
+
+    .landing .container .land-sr .part1 {
+        flex-direction: column;
+    }
+
+    .landing .container .land-sr .part1 .box:first-of-type {
+        border-bottom: 1px solid #d5d5d5;
+        border-right: 0;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .landing .container .land-sr .part1 .box:last-of-type {
+        border-radius: 0 0 4px 4px;
+    }
+
+    .works .container .land-boxs {
+        margin-top: 5em;
+    }
+
+    .business .main-title {
+        font-size: 25px;
+    }
+
+    .business .container form {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .business .container form input[type="email"] {
+        border-radius: 4px;
+    }
+
+    .business .container form input[type="submit"] {
+        border-radius: 4px;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .footer .container .footer-header .links ul li a {
+        padding: 10px;
+    }
+
+    .footer .container .footer-header {
+        flex-direction: column;
+    }
+
+    .footer .container .info-footer {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .footer .container .info-footer .text {
+        text-align: center
+    }
+
+    .footer .container .info-footer .so-num {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .header .container {
+        flex-direction: row-reverse;
+    }
+
+    .header .container .links ul {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        background-color: #fff;
+    }
+
+    .header .container .links ul li a {
+        padding: 15px;
+        text-align: center;
+
+    }
+
+    /* .header .container .links:hover>ul {
+        height: 19em;
+        z-index: 11111;
+
+    } */
+    .header .container .links:hover ul {
+        height: 19em;
+        z-index: 11111;
+    }
+
+    .landing .container .land-sr {
+        flex-direction: column;
+    }
+
+    .landing .container .land-sr .part1 .box {
+        width: 100%;
+    }
+}
